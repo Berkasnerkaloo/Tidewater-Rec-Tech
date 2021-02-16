@@ -68,6 +68,11 @@ body {
   color: #18778c;
   text-align: center;
 }
+#nav-list li:nth-child(-n+4) a:hover {
+  color: white;
+  transform: translateY(-10px);
+}
+
 #phone a {
   display: block;
   clear: left;
@@ -75,7 +80,9 @@ body {
   top: 15px;
   right: 15px;
   background-color: #fff;
+  border: solid 1px black;
   border-radius: 5px;
+  z-index: 100;
 }
 
 
@@ -98,10 +105,14 @@ body {
   text-align: center;
   font-weight: bold;
   color: #18778c;
+  margin-bottom: 25px;
 }
 #map {
-  width: 100%;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
   border-radius: 15px;
+  clear: left;
  }
 .panel-footer {
   margin-top: 30px;
@@ -112,11 +123,16 @@ body {
 #contact, #hours {
   text-align: center;
 }
+
 #contact a {
   color: #fff;
   text-align: center;
   float: all;
 }
+#number {
+    font-family: 'Cinzel Decorative', cursive;
+  }
+
 #service-area {
   font-style: italic;
 }
@@ -127,6 +143,7 @@ body {
   background-color: #fff;
   color: #18778c;
   border-radius: 15px;
+  padding: 35px;
 }
 
 /*service page*/
@@ -175,6 +192,9 @@ div.desc {
   padding-left: 0;
   padding-right: 0;
 }
+#map {
+  width: 50%;
+}
 }
 
 
@@ -193,7 +213,10 @@ div.desc {
   width: 90%;
   color: #18778c;
   text-align: center;
-
+}
+#nav-list li:nth-child(-n+4) a:hover {
+  color: white;
+transform: translatex(10px);
 }
 
 #call-btn > a {
@@ -204,3 +227,6 @@ div.desc {
     color: #18778c;
     font-family: 'Cinzel Decorative', cursive;
   }
+#map {
+  width: 70%;
+}
